@@ -6,9 +6,9 @@ import pytiki as ti
 '''
 Caveats:
     * the returned values are totally unpredictable if two or more tags
-      are read simultaneously
+      are read simultaneously;
     * the script has to be run as root, nothing we can do here as libusb
-      requires it
+      requires it.
 '''
 
 class TikiReader:
